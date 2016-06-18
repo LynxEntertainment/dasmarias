@@ -387,9 +387,16 @@ p {
 
 /*// Rodapé //*/
 
+main{
+    position:relative;
+    min-height: 485px;
+}
+
 
 footer {
     width: 100%;
+    float: left;
+    height: fit-content;
     background: rgb(100,20,40); 
     position: relative;
     bottom: 0;
@@ -397,7 +404,7 @@ footer {
 }
 
 footer p{
-    padding: 15px 5px;
+    padding: 15px 5px !important;
     font-size: 1.0em;
     text-align: center;
     color: rgb(250,220,220);
