@@ -1,0 +1,414 @@
+@font-face {
+    
+}
+html,body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#corpo{
+    width:100%;
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+.bodyMove{
+    transform: translateX(-170px);
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+/*Cabeçalho*/
+
+header{
+    width: 100%;
+    height: 120px;
+    background: rgb(100,20,40); 
+    transition: 200ms;
+}
+
+.headerReduzido{
+    height: 100px;
+    transition: 200ms;
+}
+
+.logo{
+    height: auto;
+    max-width: 400px;
+    position: relative;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-45%);
+    transition: 200ms;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.LogoReduzida{
+    width: 60%;
+    max-width: 300px;
+}
+.midia{
+    height: 30%;
+    width: 50px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 18px;
+
+}
+
+.midia img{
+    width: 22px;
+}
+
+.midiaCompact{
+    height: 30%;
+    padding: 60px 30px 0 30px;
+    width: 140px;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+.midiaCompact img{
+    width: 35px;
+    margin-left: 20px;
+}
+
+
+/* Menu */
+
+
+#menu-cabecalho{
+    height: 48px;
+    width: 550px;
+    float: right;
+    font-size: 1.3em;
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    transition: 200ms;
+}
+
+.menuReduzido {
+    width: 400px !important;
+    font-size: 1.1em !important;
+    top: 40px !important;
+    transition: 200ms;    
+}
+
+#menu-cabecalho .menuitem {
+    float: left;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    margin-top: 14px;
+    color: #fff;
+    margin-bottom: 0;
+}
+#menu-cabecalho a{
+    display: block;
+
+}
+
+#menu-cabecalho .menulink {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    margin:0;
+}
+
+#menu-cabecalho .menulink:hover{
+    background: url(../img/hover.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: rgb(250,190,190);
+    background-size:100% 100%;
+}
+
+#menu-cabecalho .menuativo .menulink{
+    background: url(../img/hover.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: rgb(250,190,190);
+    background-size:100% 100%;
+}
+
+/*Menu Mobile*/
+
+.trigger{
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    transition: 400ms;
+    float: right;
+}
+
+.TriggerAtivo{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transition: 150ms;
+}
+
+#menu-compacto {
+    margin:0;
+    position: absolute;
+    width: 200px;
+    height: calc(100% - 54px);
+    top: 0;
+    right: -200px;
+    background: rgb(100,20,40);
+    padding: 0;
+    padding-top: 54px;
+
+}
+
+#menu-compacto .menuItem{
+    margin: 0;
+    color: #fff;
+    border-bottom: 2px solid rgb(90,10,40);
+
+}
+
+
+
+#menu-compacto .menulink{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    padding-left: 35px;
+    padding-top:15px;
+    margin: 0;
+
+}
+
+
+/*Página Principal*/
+
+.home{
+    background:#000;
+    width:100%;
+    margin: 0;
+
+}
+
+.home iframe{
+    width: 100%;
+    height: 75%;
+    margin: -10px;
+    margin: auto;
+}
+
+/*Conteudo das Páginas*/
+
+.conteudo {
+    width: 100%;
+    height:auto;
+    max-width: 1160px;
+    min-height: 75%;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+}
+
+.right {
+    float:right;
+    height:auto;
+    width: 55%;
+    min-width: 400px;
+
+}
+.right img {
+    float:right;
+    width: 85%;
+    height: auto;
+    margin: 10px;
+}
+
+.left {
+    width: 50%;
+    height: 70%;
+    float: left;
+    min-width: 400px;
+
+}
+
+.conteudo iframe{
+    float:right;
+    height: 60%;
+    min-width: 300px;
+    width: 48%;
+}
+
+/* Abas de Conteudo */
+
+.abas  {
+    margin-top:10px;
+    width: 100%;
+    height:6%;
+    text-align:center;
+    margin-bottom: 3%;
+    margin: 0;
+}
+
+.aba {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    color: #641428;
+    font-size: 1.1em;
+    background: url(../img/aba2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float:left;
+    background-size:100% 100%;
+}
+
+.aba-selecionada{
+    background: url(../img/aba1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float:left;
+    background-size:100% 100%;
+}
+
+#aba2-conteudo {
+    display:none;
+}
+
+.barra{
+    margin: 0;
+    width: 100%;
+    height: 4%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(250,220,220)), to(#fff));
+    background: -moz-linear-gradient(top, #EBCCCE, #EBCCCE);
+}
+
+/*Definições de Texto*/
+
+h4 {
+    color: #641428;
+    font-size: 2.2em;
+    margin: 10px 15px 0px 15px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size:1.3em;
+    color: #641428;
+    margin: 5px 15px 0 15px;
+}
+
+h2 {
+    color:#333;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-weight:normal;
+    margin: 5px 15px 0 15px;
+}
+
+h1 {
+    color: #641428;
+    font-size: 1.6em;
+    margin: 10px 15px 0px 15px;
+}
+
+p {
+    margin: 0
+}
+
+
+/*Formulario*/
+
+.fomulario input{
+    width: 90%;
+    height: 35px;
+    background:rgb(250,220,220);
+    border:none;
+    color:#333;
+    font-size: 1.1em;
+    margin: 0px 15px 15px 15px;
+}
+
+#nome {
+    background: url(../img/name.png);
+    float:left;
+    background-size:100% 100%;
+}
+
+.fomulario label {
+    font-size:1.3em;
+    color: #641428;
+    margin: 0px 15px 15px 15px;
+}
+
+#mensagem {
+    width: 90%;
+    float: left;
+    height: 270px;
+    background:rgb(250,220,220);
+    color:#333;
+    font-size: 1.2em;
+    border:none;
+    margin-left: 15px;
+    background: url(../img/msg.png);
+    background-size:100% 100%;
+}
+
+
+#enviar {
+    min-width: 100px;
+    width: 40%;
+    height: 6%;
+    background: url(../img/enviar.png);
+    background-size:100% 100%;
+    color:rgb(250,220,220);
+    font-size: 1.2em;
+    margin-left: 12%;
+    border:none;
+    margin-top: 20px;
+}
+
+
+/*// Rodapé //*/
+
+
+footer {
+    width: 100%;
+    background: rgb(100,20,40); 
+    position: relative;
+    bottom: 0;
+
+}
+
+footer p{
+    padding: 15px 5px;
+    font-size: 1.0em;
+    text-align: center;
+    color: rgb(250,220,220);
+}
+
+#copyright{
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.7em;
+    margin-top: 1px;
+}
+
+

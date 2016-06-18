@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<?php
+require_once 'class/trocaURL.php';
+?>
+
+<html>
+    <head>
+        <title>RElatorio</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho"> 
+                <div class="grupo">GRUPO 03
+                    <p>FACULDADE DE TECNOLOGIA SENAC GOIÁS<br>
+                        Curso Superior Tecnológico em Design Gráfico<br>
+                    Módulo III Noturno - 2016</p>
+               </div>
+            <div class="integrantes">
+                Atilla Mundoca<br>
+                Pedro Henrique Nascimento Oliveira<br>
+                Sany Mara Pereira Fernandes<br>
+                Wellington de Oliveira Faria
+            </div>
+            </div>
+        </header>
+
+        <div class="relatorio">
+            <h2>RELATÓRIO</h2>
+            <h3>DAS MARIAS SEMI-JOIAS: criação de site e proposta transmídia.</h3>
+
+            <h1>1 INTRODUÇÃO</h1>
+
+            <h1>2 PROBLEMA</h1>
+
+<p>Desenvolver um site web para a loja Das Maria Semi-joias, bem como também uma proposta de utilização de plataforma transmídia para divulgação de conteúdo relevante para a promoção da loja/marca.
+</p>
+<h1>3 OBJETIVO</h1>
+
+<p>Utilizar os conhecimentos adquiridos durante as aulas na criação de conteúdo multimídia e web para cliente real.
+</p>
+<h1>3 METODOLOGIA</h1>
+
+<p>Para o desenvolvimento deste trabalho foi utilizado o conteúdo disponibilizado pela empresa Das Maria Semi-joias, assim como analise de similares e pesquisas bibliográficas.
+</p>
+<h1>4 JUSTIFICATIVA</h1>
+
+<p>Diante do atual estagio de desenvolvimento tecnológico, que causa profundas alterações nos hábitos de comunicação e consumo, as empresas precisam estar, cada vez mais atentas aos meios possíveis de alcançar e impactar os consumidores. Segundo Bertoncello e Crescetelli (2009) “o mundo digital vem transformando o dia-a-dia das pessoas e, praticamente, todos os setores da economia, na forma com que empresas, serviços e marcas estão se estabelecendo nessa nova configuração mercadológica”. Nesse contexto, a criação de um site web juntamente com o uso de mídias sociais mostra-se uma alternativa na busca de ganhar relevância frente a concorrência e estar em sintonia com os anseios dos clientes. 
+</p><p>A loja “Das Marias Semijoias” faz parte de um mercado que movimentou em 2015, segundo o IBGM (Instituto Brasileiro de Gemas e Metais), mais de 11 bilhões de reais. Ainda, segundo o IBGM o Comércio Varejista de Joias e Relógios contava em 2014 com 18.303 estabelecimentos registrados. Com a utilização das mídias disponíveis, para a promoção de seus produtos, a empresa “Das Marias” terá mais oportunidades de manter-se competitiva e alcançar novos consumidos/mercados.
+</p>
+<h1>5 INTERFACE E USABILIDADE</h1>
+
+<p>O desenvolvimento da interface e usabilidade para o site “Das Marias” partiu de uma pesquisa de similares, com o objetivo de identificar padrões e similaridade entre os sites web no mercado de; bijuterias e folheados, e joias. As amostras escolhidas foram os sites web das seguintes empresas: Mires Brandão, Wendel Joias, Francesca Romana Diana e Antônio Bernardo. A partir da analise, foi possível identificar as seguintes características:
+</p><h4> - Lojas de semi-joias e bijuterias dedicadas a atender um amplo publico com a “Das Marias” faz uso intenso de cores intensas em seus sites web, como vermelho e rosa.
+</h4><h4> - Lojas/marcas de semi-joias, com posicionamento de mercado para publico com maior poder aquisitivo e de lojas/marcas de joias, utilizam cores sóbrias e em menor variedade em seus sites web.
+</h4><p>O projeto segue a perspectiva de Design centrado no Design, em que segundo Kalbach (2009) “as decisões são tomadas a partir da visão pessoal do designer em relação ao mundo”. Neste contexto, o grupo de trabalho, optou por conceber o layout visando obter simplicidade estética, Nielsen (2007, p.116) chama a atenção sobre a importância de se evitar o uso de design rebuscado, “de fato, quanto menos objetos na página, maior a probabilidade de as pessoas os perceberem”. Os elementos decorativos aplicados ao layout derivam do logo Diamante e estão presentes; no menu, quando ativado e em recortes localizados nas imagens, formulário de contato. As cores empregadas no site web foram selecionadas a partir da logo Diamante.
+</p><p>O modelo de navegação é estrutural (Kalbach, 2009) segundo o qual “existe apenas um conjunto de links, o qual prove acesso à informação, não existem links embutidos dentro do texto, nem funções de busca”. Procurou-se também, como orienta Nielsen (2007) nomear os rótulos navegacionais de forma a possibilitar uma melhor compreensão ao usuário e seguindo sua orientação de manter “os nomes dos links o mais curto e especifico possível a fim de maximizar a varredura visual
+</p><p>Os conteúdos similares/complementares foram dispostos em abas, dentro de uma mesma pagina, de maneira a proporcionar ao usuário, rápido acesso às informações correlatas, sem a necessidade de criar paginas exclusivas para os tópicos e  assim, evitar também, paginas com excesso de conteúdo.
+</p><p>A navegação no site web e feita através de menu de links, horizontal, localizado na parte superior direita da pagina. O link da pagina aberta fica ativo, com cor diferente dos demais e sublinhado por uma barra derivada do logo Diamante.
+</p>
+<h1>5.1 Funcionalidade</h1>
+
+Menu ativo
+Para a execução do funcionalidade menu ativo, foi utilizada uma estrutura condicional simples criando uma função que verifica os itens do menu um por um e compara os nomes com o nome da pagina atual, de forma que a pagina correspondente acrescente uma classe em seu item no menu.
+
+Abas de Conteúdo
+Funcionalidade alcançada através de programação em Javascript que mostra o conteúdo 01 ao clicar na aba 01, e esconde o conteúdo 02; e mostra o conteúdo 02 ao clicar na aba dois e esconde o conteúdo 01, juntamente executa o comando de acrescentar uma classe na aba selecionada, para indicar onde o usuário está. A aba ativa mantem uma cor mais clara que a aba desativada, essa cor avança um pouco o interior a área do conteúdo em efeito gradiente.
+
+6 PROPOSTA TRANSMIDIA
+
+6.1 Instagram
+
+O Instagram foi escolhido para ser a mídia de divulgação dos produtos disponíveis para venda na loja. A escolha levou em consideração o fato, de que o Instagram conta com uma interface simplificada, o que possibilita maior destaque ao conteúdo publicado.
+
+Diretrizes para postagens:
+
+1 ou 2 postagens por dia.
+Postagens com frases curtas e diretas, com a informação principal deve ser a primeira frase.
+
+- Para venda  dos produtos da loja;
+- Diminuir tamanho das frases deixado de forma mais e direta  
+- Deve ser sucintas com a informação principal já na primeira frase;
+-
+
+
+
+
+
+
+6.2 Facebook
+
+- Para divulgação de promoções, incentivando o compartilhamento; 
+- Trazendo novos clientes para a loja;
+- Para venda  dos produtos da loja;
+- Diminuir tamanho das frases deixado de forma mais e direta  
+- Deve ser sucintas com a informação principal já na primeira frase;
+-
+
+6.3 Blog
+- Postagens sobre Tendencias de Moda;
+- Dicas de estilos / looks;
+- Conteúdo mais denso
+
+7 CULTURA E MÍDIAS SOCIAIS
+
+O acelerado desenvolvimento tecnológico, ao qual a nossa sociedade tem presenciado, esta causando profundas alterações nas relações sociais e interações entre os indivíduos. A tecnologia agora permite, ao individuo, ter uma postura ativa na criação e disseminação de conteúdo e formação de opinião nas redes sociais e ganha poder de mobilização através dessas novas mídias.
+Porém o desenvolvimento é possibilitado pelo capitalismo, o qual, mantem sempre, a hegemonia em relação ao caminho que a processo de evolução deve ser seguir.  Segundo Fontenelle apud Rifkin “o capitalismo enfrenta um novo desafio: ‘não há nada mais a comprar’... Restam poucos valores psíquicos que se podem tirar ao se ter dois ou três automóveis, meia dúzia de televisores e aparelhos de todo tipo para suprir todas as necessidades e desejos possíveis”. Portanto é preciso desenvolver novas formas de se obter lucro e manter a maquina do capitalismo, é necessário para isso criar novos desejos no consumidor. Nessa direção, Fontenelle apud Rifkin aponta que “o capitalismo está fazendo sua transição final para o capitalismo cultural plenamente desenvolvido, apropriando não só os significadores da vida cultural e das formas artísticas de comunicação que interpretam esses significadores, mas da experiência vivida também...” e que as empresas de mídia estão tomando a direção rumo a esse novo modelo mercadológico
+“empresas de mídia transnacional [que] estão usando a nova revolução digital nas comunicações para conectar o mundo e, no processo, estão impulsionando a esfera cultural inexoravelmente para a esfera comercial, onde está sendo transformada em commodity, na forma de experiências culturais customizadas, espetáculos comerciais de massa, e entretenimento pessoal”. Fontenelle apud Rifkin)
+
+Apesar do capitalismo fazer as escolhas que devem ser seguidas pelos consumidores, através da propaganda e marketing, é inegável o ganho do individuo em relação às suas próprias escolhas de consumo, o desenvolvimento tecnológico possibilita um numero maior de concorrentes, dando mais opções aos consumidores. Bartoncello e Crescetelli (2009) discorre sobre as transformações ocorridas pelo desenvolvimento tecnológico.
+O mundo digital vem transformando o dia-a-dia das pessoas e, praticamente, todos os setores da economia, na forma com que empresas, serviços e marcas estão se estabelecendo nessa nova configuração mercadológica. Com o rápido avanço da tecnologia, a mídia está cada vez mais fragmentada, fortalecendo o poder do consumidor à medida que se torna mais difícil chamar sua atenção. Com isso surgem novos hábitos de consumo e o universo digital estabelece um modo de vida completamente diferente. O manuseio de um conjunto de ferramentas de comunicação como televisão, Internet, mensagens instantâneas, comunidades virtuais, vídeos on- line, rádios, revistas, marketing viral e games on-line, facilita a criação da rede de relacionamento e transforma o fluxo da informação.
+
+Ainda de acordo com Santos e Medeiros (2011) “a mutação do capitalismo produziu novas estratégias comerciais. Não vendem mais coisas. Agora vendem marcas, símbolos, imagens, significados, que podem ser apresentados em qualquer espaço estratégico e aos olhos de públicos específicos”.
+O ritmo acelerado das transformações podem causar incertezas acerca dos resultados que advirão desse processo, mas as possibilidades abertas na forma de autoexpressão e escolhas dão poder ao individuo, desde que o mesmo, mantenha o senso critico em relação às mensagens de marketing emitidas pelos agentes do capitalismo, sob o prejuízo seu poder mobilizador e fazer escolhas já predefinidas pelo mercado.
+
+8 ROTEIRO VÍDEO PROPAGANDA
+9 ROTEIRO ANIMAÇÃO
+
+PREMISSA
+Vários triângulos despesos, se unem formando o diamantes e o logotipo Das Marias.
+
+ARGUMENTO
+A abertura terá como base conceitual a Constelação de Orion, a qual possui três estrelas que são conhecidas no Brasil como As 3 Marias, fazendo assim uma conexão com o nome da loja. Inicialmente mostra a tela escura e vazia, a constelação surge de forma gradativa e no local das estrelas principais os triângulos que formam a logo Diamante. Os triângulos se unem no centro da tela. Na sequencia as estrelas se unem formando o logotipo Das Marias.
+
+ROTEIRO
+
+FADE IN
+
+EXT.  CÉU. NOITE.
+
+Surge as estrelas da constelação
+Triângulos aparecem
+Surgem como pontos e crescem até ganhar a forma de triângulo.
+Triângulos formam o Diamante.
+Os triângulos saem de suas posições iniciais, em efeito chicote, durante o percurso eles se posicionam da maneira necessária e se unem no centro da tela formando o Diamante.	
+Diamante diminui de tamanho enquanto desliza para cina na tela.
+Estrelas se unem e formam o logotipo Das Marias abaixo do Diamante.
+Surge o fundo circular do Diamante.
+
+FADE OUT
+
+THE AND
+
+
+REFERENCIAS BIBLIOGRÁFICAS
+
+BULBACH, James. Design de Navegação web: Otinizando a experiencia do usuario, traducao Eduardo Kessler Piveta. Porto Alegre: Bookman, 2009.
+JAKOB, Nielsen; Hoa Larager. Usabilidade na web. Tradução Edson Fermankienwicz e Carlos Shafranski, Docware Traduções Tecnicas. Rio de Janeiro: Elsevier, 2007 - 2ª reimpressão.
+SANTOS, Lionês Araújo dos, MEDEIROS, Juan Felipe Sànchez. A MERCANTILIZAÇÃO DO CORPO: Midia e capitalismo como principais agentes da promoção do consumo e do mercado. Espaço Plural . Ano XII . Nº 24 . 1º Semestre 2011.
+FONTENELLE, Isleide Arruda. Midia, Acesso e Mercado da Experiência. Artigo
+BERTONCELLO, Sílvio Tadeu; CRESCITELLI, Edson. Comportamento do Jovem Consumidor Mediante as Diversas Alternativas de Mídia. Revista PMKT Nº 03, 2009.
+
+                </p>
+
+
+
+                <footer>
+
+                    <div id="copyright">Copyright © 2016 - Sany Fernandes | Todos os direitos reservados e protegidos</div>
+                </footer>
+                </body>
+                </html>
