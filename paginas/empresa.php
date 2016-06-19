@@ -1,7 +1,11 @@
 <div class="conteudo">
 
     <h4>A EMPRESA</h4>
-
+        <div class="right">
+<img src="img/01.png"/>
+      <img src="img/02.png"/>
+      <img src="img/03.png"/>
+    </div>
 
 <br><h2>A loja Das Marias foi criada em dezembro de 2014 e está situada à Rua Benjamin Constant, 668, setor Campinas, Goiânia-GO. Tem como proprietária a Sra. Daniella Marques Marcelino e a Sra. Lúcia Marcelino da Silva. A ideia de montar a loja nesse segmento partiu do sonho dessas duas amigas, ex-bancárias, uma graduada em Administração de Empresas e a outra, já com experiência no mercado de joias e semijoias.</h2><br>
 
@@ -26,9 +30,5 @@
 <h3>Modalidades de Negócio<h3>
 <h2>Varejo, atacado e consignado </h2><br>
 
-        <div class="right">
-<img src="img/01.png"/>
-      <img src="img/02.png"/>
-      <img src="img/03.png"/>
-    </div>
+
 </div>
