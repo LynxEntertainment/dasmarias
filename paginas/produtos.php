@@ -23,13 +23,13 @@
       
     </div>
         <h2>Na nossa loja você encontra:<br><br></h2>
-        <h2>Bijuterias Finas<br>
-•<br>
-Semijóias<br>
-•<br>
-Acessórios</h2>
-•<br>
-        </h2><h2></h2>Para conferir as tendências e peças disponivéis no nosso estoque, fique de olho nas nossas redes sociais
+        <h5></h5>Bijuterias Finas<br><br>
+----------<br><br>
+Semijóias<br><br>
+----------<br><br>
+Acessórios<br><br>
+----------<br><br></h5>
+        </h2><h2>Para conferir as tendências e peças disponivéis no nosso estoque, fique de olho nas nossas redes sociais
         
         </h2>
     </div>
