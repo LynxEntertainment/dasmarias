@@ -329,6 +329,14 @@ h1 {
     margin: 10px 15px 0px 15px;
 }
 
+h5 {
+    
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 15px 0px 15px;
+}
+
 p {
     margin: 0
 }
