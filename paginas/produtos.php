@@ -22,10 +22,13 @@
       <img src="img/05.png"/>
       
     </div>
-        <h2>Na nossa loja você encontra:<br><br>
-        Acessórios<br><br>Aneis<br><br>Alianças<br><br>Brincos<br><br>Braceletes<br><br>Colares<br><br>Conjuntos<br><br>
-        Pingentes<br><br>Pulseiras<br><br>Tornozeleiras
-        <br>
+        <h2>Na nossa loja você encontra:<br><br></h2>
+        <h2>Bijuterias Finas
+•
+Semijóias
+•
+Acessórios</h2>
+•
         </h2><h2></h2>Para conferir as tendências e peças disponivéis no nosso estoque, fique de olho nas nossas redes sociais
         
         </h2>
