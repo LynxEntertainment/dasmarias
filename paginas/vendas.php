@@ -19,8 +19,9 @@
 <div class="abas-conteudo">
        <div id="aba1-conteudo">
         <div class="right">
-<img src="img/02.png"/>
-      <img src="img/05.png"/>
+<img src="img/08.png"/>
+      <img src="img/09.png"/>
+       <img src="img/10.png"/>
     </div>
     <h3>Varejo</h3><br />
         <h2> A garantia de nossas peças estende-se apenas ao banho das semijoias, no prazo máximo de 1 ano após a compra;<br />
@@ -35,7 +36,9 @@ Peças em bijuterias NÃO possuem nenhum tipo de garantia;<br></h2><br />
     </div>
     <div id="aba2-conteudo">
             <div class="right">
-<img src="img/02.png"/>
+<img src="img/11.png"/>
+<img src="img/12.png"/>
+<img src="img/13.png"/>
     </div>
         <h2> A troca para o atacado só será feita se uma segunda compra for realizada, onde a cliente terá direito a trocar 40% do que foi adquirido na compra anterior, sendo aceito a devolução máxima de 10% em bijuterias;<br /><br />
 Só é aceito troca ou devolução, no atacado ou consignado, de peças adquiridas na compra anterior a esta que está sendo efetuada, ou, no caso do consignado, da compra deste respectivo acerto. Peças de compras anteriores não serão aceitas;<br /><br />
