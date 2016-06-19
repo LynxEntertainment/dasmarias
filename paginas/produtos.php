@@ -17,12 +17,22 @@
     </div>
 <div class="abas-conteudo">
     <div id="aba1-conteudo">
-        <h2> Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 Conteudo 01 </h2>
+                <div class="right">
+<img src="img/04.png"/>
+      <img src="img/05.png"/>
+    </div>
+        <h2>Na nossa loja você encontra:<br><br>
+        Acessórios<br><br>Aneis<br><br>Alianças<br><br>Brincos<br><br>Braceletes<br><br>Colares<br><br>Conjuntos<br><br>
+        Pingentes<br><br>Pulseiras<br><br>Tornozeleiras
+        <br>
+        </h2><h2></h2>Para conferir as tendências e peças disponivéis no nosso estoque, fique de olho nas nossas redes sociais
+        
+        </h2>
     </div>
     <div id="aba2-conteudo">
         <div class="right">
-<img src="img/04.png"/>
-      <img src="img/01.png"/>
+<img src="img/06.png"/>
+      <img src="img/07.png"/>
     </div>
         <h3>Semi Joias e Bijuterias</h3><br />
         <h2>Para evitar riscos guarde-as em compartimentos individuais ou em saquinhos de plastico ou veludo.<br><br />
