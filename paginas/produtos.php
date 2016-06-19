@@ -23,7 +23,7 @@
       
     </div>
         <h2>Na nossa loja você encontra:<br><br></h2>
-        <h5></h5>Bijuterias Finas<br><br>
+        <h5>Bijuterias Finas<br><br>
 ----------<br><br>
 Semijóias<br><br>
 ----------<br><br>
