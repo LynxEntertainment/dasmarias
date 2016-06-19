@@ -23,13 +23,14 @@
       <img src="img/09.png"/>
        <img src="img/10.png"/>
     </div>
+    <br><br>
     <h3>Varejo</h3><br />
         <h2> A garantia de nossas peças estende-se apenas ao banho das semijoias, no prazo máximo de 1 ano após a compra;<br />
 Nossa garantia não cobre quebra, mau uso das peças e pedras;<br>
-Peças em bijuterias NÃO possuem nenhum tipo de garantia;<br></h2><br />
+Peças em bijuterias NÃO possuem nenhum tipo de garantia;<br></h2><br /><br>
 <h3>Atacado</h3><br />
 <h2>Aa compra de 06 peças ou mais, que superem o valor de 300 reais, será concedido desconto de 30% em dinheiro ou no cheque à vista, 25% de desconto no débito ou no cheque parcelado e 20% no cartão de crédito; <br /></h2><br />
-<h3>Consignado</h3><br />
+<h3>Consignado</h3><br /><br>
 <h2>As cotas são as seguintes: 60% de acerto, e 40% de troca ou devolução, sendo aceito a devolução máxima de 10% em bijuterias; O desconto do consignado é o mesmo do atacado;</h2><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
  </h2>
