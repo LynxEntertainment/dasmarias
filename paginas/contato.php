@@ -1,9 +1,12 @@
+
+
+
 <div class="conteudo">
 <h4>CONTATO</h4>
 
 <div class="left">
 <div class="fomulario">
-        <form action="class/acaoCadastrar.php" method="post">
+        <form action="acao/contato.php" method="post">
             <label for="nome">Nome:</label>
             <br />
             <input id="nome" name="nome" type="text" />
