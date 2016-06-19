@@ -10,7 +10,6 @@ body{
 
 .cabecalho{
     color: #fff;
-    font-family: Trebuchet MS;  
     width: 800px;
     margin: auto;
 
@@ -55,16 +54,33 @@ p {
     text-indent: 30px;
 }
 
+h5 {
+    font-size: 13pt;
+    font-style: italic;
+    font-weight: normal;
+}
 h2 {
     font-size: 40px;
     text-align: center;
    
 }
 
+img{
+    width: 600px;
+}
+
 h4 {
     font-size: 14pt;
     margin-left:  50px;
     font-weight: normal;
+    
+}
+
+h6 {
+    font-size: 12pt;
+    margin-left:  200px;
+    font-weight: normal;
+    text-indent: 20px;
     
 }
 

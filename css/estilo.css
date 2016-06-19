@@ -294,7 +294,8 @@ header{
 .barra{
     margin: 0;
     width: 100%;
-    height: 4%;
+    height: 30px;
+    float: left;
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(250,220,220)), to(#fff));
     background: -moz-linear-gradient(top, #EBCCCE, #EBCCCE);
 }
