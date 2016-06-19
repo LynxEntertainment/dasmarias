@@ -49,7 +49,7 @@ Peças de metal e pedras naturais podem ser lavadas com água e sabão neutro, u
 Peças banhadas com metal dourado ou preteadas não devem ser limpas com as chamadas “FLANELAS MAGICAS”, elas possuem polidor químico que retira o banho das peças. Apenas peças de ouro e prata maciça podem ser limpas com essas flanelas.<br><br />
 Nunca use acetona, álcool, creme dental e solventes na limpeza de semi-joia e bijuteria. Esses produtos danificam as peças.<br><br />
 As pedras naturais podem ter a sua cor e resistência alteradas quando expostas ao calor extremo.<br><br />
-</h2>
+</h2> 
     </div>
 </div>
     
